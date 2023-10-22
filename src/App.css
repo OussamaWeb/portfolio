@@ -1,0 +1,281 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    height: 100vh;
+    background-color: #FCF6FC !important;
+}
+
+.about-box {
+    grid-template-columns: 2fr 1fr;
+}
+
+@media screen and (max-width: 1000px) {
+    .about-box {
+        grid-template-columns: 1fr;
+    }
+
+    .img-about {
+        width: 5rem;
+    }
+}
+
+.center,
+.center i,
+.div,
+.nav-links,
+.NavBar button {
+    transition: all .5s linear;
+}
+
+.div {
+    animation: div 1 1s ease-in;
+}
+
+@keyframes div {
+    0% {
+        width: 0%;
+    }
+
+    10% {
+        width: 10%;
+    }
+
+    20% {
+        width: 20%;
+    }
+
+    30% {
+        width: 30%;
+    }
+
+    40% {
+        width: 40%;
+    }
+
+    50% {
+        width: 50%;
+    }
+
+    60% {
+        width: 60%;
+    }
+
+    70% {
+        width: 70%;
+    }
+
+    80% {
+        width: 80%;
+    }
+
+    90% {
+        width: 90%;
+    }
+
+    100% {
+        width: 100%;
+    }
+}
+
+.translateY {
+    transform: translateY(-50%);
+}
+
+.translateX {
+    transform: translateX(-50%);
+}
+
+.center {
+    transform: translate(-50%, -50%);
+}
+
+.change {
+    top: 85%;
+    left: 90%;
+}
+
+.center i {
+    animation: center infinite linear 2s;
+}
+
+@keyframes center {
+    0% {
+        transform: rotate(0);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.work {
+    transform: rotate(270deg);
+}
+
+.NavBar button {
+    border: 1px solid gray;
+    background-color: white;
+}
+
+.NavBar button:hover {
+    box-shadow: 0 0 8px 6px rgba(0, 255, 0, 0.2);
+    background-color: rgba(0, 255, 0, 0.4);
+}
+
+.NavBar h4,
+.NavBar h6 {
+    font-family: 'Pacifico', cursive;
+}
+
+.line-icons {
+    width: 2px;
+}
+
+.intro {
+    animation: intro 1 .4s linear;
+}
+
+@keyframes intro {
+    0% {
+        height: 100px;
+    }
+
+    50% {
+        height: 200px;
+    }
+
+    100% {
+        height: 320px;
+    }
+}
+
+.intro .image-portfolio {
+    animation: image 1 .8s linear;
+}
+
+@keyframes image {
+    0% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: .5;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.intro .right {
+    border: 2px solid #000000;
+    border-left: transparent;
+}
+
+.intro .left {
+    border: 2px solid #FCF6FC;
+    border-right: transparent;
+}
+
+.blog {
+    background: url(./components/Images/patrick-tomasso-Oaqk7qqNh_c-unsplash.jpg) no-repeat;
+    width: 100vw;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.anchor {
+    transform: translateY(-50%);
+}
+
+.svg-link {
+    transform: rotate(135deg);
+}
+
+.dot-before h5::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: -1rem;
+    transform: translate(-50%, -50%);
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background-color: black;
+}
+
+.img-about img {
+    animation: img_about infinite 4s linear;
+}
+
+@keyframes img_about {
+    0% {
+        transform: translateY(-10px);
+    }
+
+    50% {
+        transform: translate(15px, 15px);
+    }
+
+    100% {
+        transform: translateY(-10px);
+    }
+}
+
+.opa {
+    animation: opa 1 .8s linear;
+}
+
+@keyframes opa {
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: .5;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.music {
+    gap: .2rem;
+}
+
+.music .item {
+    animation: item infinite 2s linear;
+}
+
+@keyframes item {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.5);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+.music .item:nth-child(1) {
+    animation-delay: .2s;
+}
+.music .item:nth-child(2) {
+    animation-delay: .4s;
+}
+.music .item:nth-child(3) {
+    animation-delay: .6s;
+}
+.music .item:nth-child(4) {
+    animation-delay: .8s;
+}
+.music .item:nth-child(5) {
+    animation-delay: 1s;
+}
