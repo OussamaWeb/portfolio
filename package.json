@@ -1,7 +1,7 @@
 {
   "name": "my-portfolio",
   "version": "0.1.0",
-  "homepage": "https://OussamaWeb.github.io/portfolio-react",
+  "homepage": "https://OussamaWeb.github.io/my-portfolio",
   "private": true,
   "dependencies": {
     "@emailjs/browser": "^3.11.0",
