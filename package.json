@@ -4,7 +4,7 @@
   "private": true,
   "dependencies": {
     "@emailjs/browser": "^3.11.0",
-    "homepage": "https://OussamaWeb.github.io/portfolio-react",
+    "homepage": "http://OussamaWeb.github.io/portfolio",
     "@react-three/drei": "^9.80.6",
     "@react-three/fiber": "^8.13.7",
     "@reduxjs/toolkit": "^1.9.5",
