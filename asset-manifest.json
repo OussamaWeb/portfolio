@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/static/css/main.9ca4a98c.css",
+    "main.js": "/static/js/main.7908878c.js",
+    "static/media/u-said-it-v13-1167.mp3": "/static/media/u-said-it-v13-1167.949cee7ea4a6ad9499db.mp3",
+    "static/media/patrick-tomasso-Oaqk7qqNh_c-unsplash.jpg": "/static/media/patrick-tomasso-Oaqk7qqNh_c-unsplash.8ca90014fb6ce5980110.jpg",
+    "static/media/fa-solid-900.ttf": "/static/media/fa-solid-900.4a2cd718d7031b732e76.ttf",
+    "static/media/fa-brands-400.ttf": "/static/media/fa-brands-400.150de8eaa454d669c405.ttf",
+    "static/media/fa-solid-900.woff2": "/static/media/fa-solid-900.bb975c966c37455a1bc3.woff2",
+    "static/media/fa-brands-400.woff2": "/static/media/fa-brands-400.e033a13ee751afc1860c.woff2",
+    "static/media/spaceman.png": "/static/media/spaceman.5ec7fcfa9a803ead726c.png",
+    "static/media/fa-regular-400.ttf": "/static/media/fa-regular-400.d87474231f4192884802.ttf",
+    "static/media/portfolio-4.jpg": "/static/media/portfolio-4.ebbd11fb001d335af299.jpg",
+    "static/media/portfolio-2.jpg": "/static/media/portfolio-2.ea5c2367680c0c0b7bea.jpg",
+    "static/media/portfolio-1.jpg": "/static/media/portfolio-1.1e843ee23596787a7350.jpg",
+    "static/media/portfolio-5.jpg": "/static/media/portfolio-5.d567d06745919ddf70b4.jpg",
+    "static/media/portfolio-6.jpg": "/static/media/portfolio-6.115a24ed5b198e62afed.jpg",
+    "static/media/portfolio-3.jpg": "/static/media/portfolio-3.33a33f315276e8a215c3.jpg",
+    "static/media/fa-regular-400.woff2": "/static/media/fa-regular-400.3223dc79c1adee56370b.woff2",
+    "static/media/profile-img.png": "/static/media/profile-img.5179e446ac1a570ce69b.png",
+    "static/media/fa-v4compatibility.ttf": "/static/media/fa-v4compatibility.0e3a648be390bd8cb094.ttf",
+    "static/media/fa-v4compatibility.woff2": "/static/media/fa-v4compatibility.68577e40f3e70067b5da.woff2",
+    "index.html": "/index.html",
+    "main.9ca4a98c.css.map": "/static/css/main.9ca4a98c.css.map",
+    "main.7908878c.js.map": "/static/js/main.7908878c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9ca4a98c.css",
+    "static/js/main.7908878c.js"
+  ]
+}
